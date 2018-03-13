@@ -111,7 +111,7 @@ public class Shuffleboard extends Application {
 
     PluginLoader.getDefault().load(new BasePlugin());
 
-    Recorder.getInstance().start();
+    //Recorder.getInstance().start();
 
     PluginLoader.getDefault().load(new NetworkTablesPlugin());
     PluginLoader.getDefault().load(new CameraServerPlugin());
